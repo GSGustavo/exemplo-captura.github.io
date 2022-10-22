@@ -1,0 +1,1 @@
+# exemplo-captura.github.io
