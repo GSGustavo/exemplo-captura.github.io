@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'extrabold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+#whatsapp-icon {
+    transition: 0.5s ease;
+    animation: escala 1.5s ease infinite;
+}
+
+@keyframes escala {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* CARROSSEL */
+
+.esp {
+    margin: 64px;
+}
+
+/* CARROSSEL */
+
+.botao {
+    background-color: #28A745;
+    padding: 5px 15px;
+    color: white;
+    font-family: 'extrabold';
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+.botao-header {
+    border-radius: 100px;
+    width: 150px;
+}
+
+.p-44 {
+    font-family: 'extrabold';
+    font-size: 44px;
+}
+
+.p-32 {
+    font-family: 'extrabold';
+    font-size: 32px;
+}
+
+.p-28 {
+    font-family: 'extrabold';
+    font-size: 28px;
+}
+
+.p-24 {
+    font-family: 'extrabold';
+    font-size: 24px;
+}
+
+.p-18 {
+    font-family: 'extrabold';
+    font-size: 18px;
+}
+
+.p-16 {
+    font-family: 'extrabold';
+    font-size: 16px;
+}
+
+.p-14 {
+    font-family: 'extrabold';
+    font-size: 14px;
+}
+
+.p-12 {
+    font-family: 'extrabold';
+    font-size: 12px;
+}
